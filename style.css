@@ -277,8 +277,13 @@ span{
     }
 
     .hero-text h6{
-        margin-bottom: 15px;
+        margin-top: 50px;
     }
+
+    .scroll{
+        display: none;
+    }
+
 }
 
 @media (max-width:960px){
@@ -299,6 +304,10 @@ span{
         border-radius: 10px;
     }
 
+    .hero-text h6{
+        margin-top: 50px;
+    }
+
     .navbar a{
         display: block;
         padding: 15px;
@@ -311,6 +320,10 @@ span{
 
     .navbar.active{
         right: 0;
+    }
+
+    #car {
+        font-size: 50px;
     }
 }
 
@@ -332,6 +345,10 @@ span{
 
     .hero{
         gap: 10px;
+    }
+
+    .hero h6 {
+        margin-top: 20px;
     }
 }
 
